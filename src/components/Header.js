@@ -4,34 +4,34 @@ import styled from 'styled-components';
 function Header() {
     return (
         <Nav>
-            <Logo src="/images/logo.svg"/>
+            <Logo src="/images/logo.svg" />
             <NavMenu>
-                <a>  
-                    <img src="/images/home-icon.svg" alt="homeIcon"/>
+                <a>
+                    <img src="/images/home-icon.svg" alt="homeIcon" />
                     <span>HOME</span>
                 </a>
-                <a> 
-                    <img src="/images/search-icon.svg" alt="homeIcon"/>
+                <a>
+                    <img src="/images/search-icon.svg" alt="homeIcon" />
                     <span>SEARCH</span>
                 </a>
-                <a> 
-                    <img src="/images/watchlist-icon.svg" alt="homeIcon"/>
+                <a>
+                    <img src="/images/watchlist-icon.svg" alt="homeIcon" />
                     <span>WATCHLIST</span>
                 </a>
-                <a> 
-                    <img src="/images/original-icon.svg" alt="homeIcon"/>
+                <a>
+                    <img src="/images/original-icon.svg" alt="homeIcon" />
                     <span>ORIGINALS</span>
                 </a>
-                <a> 
-                    <img src="/images/movie-icon.svg" alt="homeIcon"/>
+                <a>
+                    <img src="/images/movie-icon.svg" alt="homeIcon" />
                     <span>MOVIES</span>
                 </a>
-                <a> 
-                    <img src="/images/series-icon.svg" alt="homeIcon"/>
+                <a>
+                    <img src="/images/series-icon.svg" alt="homeIcon" />
                     <span>SERIES</span>
                 </a>
             </NavMenu>
-            <UserImg src="/images/person.jpeg"/>
+            <UserImg src="/images/person.jpeg" />
         </Nav>
     );
 };
