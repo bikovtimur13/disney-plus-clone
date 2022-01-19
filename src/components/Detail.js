@@ -9,7 +9,7 @@ function Detail() {
 
 
     useEffect(() => {
-        //Grab the movie info from DB=
+        //Grab the movie info from DB
         db.collection("movies")
             .doc(id)
             .get()
